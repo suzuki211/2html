@@ -9,11 +9,30 @@ a {
   text-decoration: none;
 }
 
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Brsdley Hand", courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header.heading {
@@ -113,7 +132,7 @@ main {
   font-size: 11px;
 }
 
-.pagination{
+.pagination {
   text-align: center;
   padding-top: 50px;
 }
@@ -133,36 +152,36 @@ main {
   width: 230px;
 }
 
-.common-heading{
+.common-heading {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
 }
 
-.sidebar-contents{
+.sidebar-contents {
   padding: 50px 0;
 }
 
 .popular-text,
-.categories-text{
+.categories-text {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
 }
 
 .popular-text:last-child,
-.categories-text:last-child{
+.categories-text:last-child {
   margin: 0px;
   padding: 0px;
   border: none;
 }
 
-.instagram .sidebar-contents{
+.instagram .sidebar-contents {
   display: flex;
   flex-wrap: wrap;
 }
 
-.instagram-box{
+.instagram-box {
   width: 110px;
   padding-top: 110px;
   background-size: cover;
